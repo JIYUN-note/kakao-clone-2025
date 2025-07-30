@@ -17,27 +17,11 @@
 }
 
 .nav__notification{
-    background-color: tomato;
-    width: 28px;
-    height: 28px;
-    border-radius: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
     position: absolute; /*一番違いrelativeを持ってる親を基準で動く*/
     left: 15px;
     bottom: 15px;
 }
 .nav__findnotification{
-    background-color: tomato;
-    width: 6px;
-    height: 6px;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    position: absolute;
     left: 35px;
     bottom: 25px;
 }
